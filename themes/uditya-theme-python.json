@@ -1,0 +1,124 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Uditya Python",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#D4D4D4",
+    "sideBar.background": "#181818",
+    "activityBar.background": "#181818"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "support.constant.handlebars",
+        "source.powershell variable.other.member",
+        "entity.name.operator.custom-literal",
+        "meta.function-call.generic.python",
+        "punctuation.definition.decorator.python"
+      ],
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.caps.python",
+        "meta.definition.variable.name",
+        "support.variable",
+        "entity.name.variable",
+        "constant.language.python",
+        "storage.type.function.python",
+        "storage.type.string.python",
+        "constant.numeric.bin.python storage.type.number.python",
+        "constant.numeric.oct.python storage.type.number.python",
+        "constant.numeric.hex.python storage.type.number.python",
+        "storage.type.function.lambda.python",
+        "storage.type.class.python",
+        "variable.language.special.self.python",
+        "storage.modifier.declaration.python",
+        "keyword.operator.logical.python",
+      ],
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": "string.regexp.quoted.single.python constant.character.escape.regexp",
+      "settings": {
+        "foreground": "#D7BA7D"
+      }
+    },
+    {
+      "scope": "string.regexp.quoted.single.python",
+      "settings": {
+        "foreground": "#D16969"
+      }
+    },
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6A9955",
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "scope": [
+        "keyword.control.import.python",
+        "keyword.control.flow.python",
+        "storage.type.function.async.python",
+      ],
+      "settings": {
+        "foreground": "#C586C0"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    },
+    {
+      "scope": [
+        "variable.parameter.function.language.python",
+        "meta.function-call.arguments.python",
+        "variable.legacy.builtin.python",
+      ],
+      "settings": {
+        "foreground": "#9CDCFE"
+      }
+    },
+  ],
+  "semanticTokenColors": {
+    "variable": "#9CDCFE",
+    "parameter": "#9CDCFE",
+    "function": "#DCDCAA",
+    "method": "#DCDCAA",
+    "class": "#4EC9B0",
+    "namespace": "#4EC9B0",
+    "property": "#9CDCFE",
+    "type": "#4EC9B0"
+  }
+}

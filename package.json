@@ -1,0 +1,35 @@
+{
+	"name": "uditya-theme-python",
+	"displayName": "Uditya Python",
+	"description": "VsCode Dark theme with the same colours for python as javascript and a few extras for readability",
+	"publisher": "Uditya",
+	"author": {
+		"name": "Uditya"
+	},
+	"version": "0.1.0",
+	"engines": {
+		"vscode": "^1.80.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/itzudii"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"Uditya",
+		"Dark",
+		"Dark",
+		"Python"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "uditya python",
+				"uiTheme": "vs-dark",
+				"path": "./themes/uditya-theme-python.json"
+			}
+		]
+	}
+}
